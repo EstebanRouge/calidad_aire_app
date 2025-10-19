@@ -1,16 +1,23 @@
-# calidad_aire_app
+# 🌎 Calculadora de Calidad del Aire
 
-A new Flutter project.
+Aplicativo móvil desarrollado en **Flutter**, que permite consultar la **calidad del aire en las principales ciudades de Colombia** utilizando la **API de [Open-Meteo Air Quality](https://open-meteo.com/en/docs/air-quality-api)**.
 
-## Getting Started
+El usuario puede seleccionar una ciudad, indicar la fecha de exposición y la cantidad de horas al aire libre, para obtener los valores de contaminantes atmosféricos y un **índice de riesgo de exposición personalizado**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Características principales
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Consumo de la API **Open-Meteo** (Air Quality API).  
+✅ Carga dinámica de ciudades colombianas desde un archivo **JSON local** (`assets/datos/capitales_colombia.json`).  
+✅ Cálculo del **índice de exposición** en función de las horas al aire libre.  
+✅ Evaluación automática del **nivel de riesgo** (Buena, Moderada, Dañina, Peligrosa, etc.).  
+✅ Interfaz intuitiva con selección de ciudad, fecha y tiempo de exposición.  
+✅ Resultados visuales y claros para el usuario.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🧠 Arquitectura del proyecto
+
+El código está organizado siguiendo una estructura limpia:
+
